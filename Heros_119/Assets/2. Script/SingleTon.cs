@@ -19,9 +19,9 @@ public class Singleton<T> : MonoBehaviour where T : Singleton<T>
 
     public static bool IsInitialized => _instance != null;
 
-    public static void Initialize()
+    private static void Initialize()
     {
-        if (_instance != null)
+        if (_instance != null || _applicationIsQuitting)
         {
             return;
         }
