@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fa7960eaddd090d469e47d59e7a1e9cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 219881
+  packageName: 2D Character Asset
+  packageVersion: 1.0
+  assetPath: Assets/Popipa/Character_2/Script/Player2Controller.cs
+  uploadId: 494042

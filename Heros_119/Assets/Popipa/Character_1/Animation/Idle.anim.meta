@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff871bf60f1e76a4da97381c5d7b8c0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 219881
+  packageName: 2D Character Asset
+  packageVersion: 1.0
+  assetPath: Assets/Popipa/Character_1/Animation/Idle.anim
+  uploadId: 494042

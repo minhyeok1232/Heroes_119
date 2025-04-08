@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48ff6d48285c16449996eaa8bfd2f40b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 219881
+  packageName: 2D Character Asset
+  packageVersion: 1.0
+  assetPath: Assets/Popipa/Character_1/Animation/Run.anim
+  uploadId: 494042
