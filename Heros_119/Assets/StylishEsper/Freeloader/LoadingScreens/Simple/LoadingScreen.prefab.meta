@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6729a54872101f240bccba82ef51dedb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301874
+  packageName: Freeloader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylishEsper/Freeloader/LoadingScreens/Simple/LoadingScreen.prefab
+  uploadId: 721296
