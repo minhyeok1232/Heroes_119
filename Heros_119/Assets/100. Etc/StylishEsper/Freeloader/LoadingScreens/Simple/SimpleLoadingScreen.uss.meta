@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b0a589dd3622dc3469f1ee3cca6c9193
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 12385, guid: 0000000000000000e000000000000000, type: 0}
+  disableValidation: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301874
+  packageName: Freeloader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylishEsper/Freeloader/LoadingScreens/Simple/SimpleLoadingScreen.uss
+  uploadId: 721296

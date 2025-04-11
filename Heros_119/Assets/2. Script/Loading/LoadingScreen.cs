@@ -1,7 +1,3 @@
-//***************************************************************************************
-// Writer: Stylish Esper
-//***************************************************************************************
-
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,44 +8,27 @@ using UnityEngine.UIElements;
 
 namespace Esper.Freeloader
 {
-    /// <summary>
-    /// A screen shown to the player while the game is loading.
-    /// </summary>
     public class LoadingScreen : MonoBehaviour
     {
-        /// <summary>
-        /// The settings that this loading screen should use.
-        /// </summary>
+        // Loading 화면 설정
         public LoadingScreenSettings settings;
 
-        /// <summary>
-        /// The UI document.
-        /// </summary>
+        // UI Document
         protected UIDocument document;
 
-        /// <summary>
-        /// The label that displays the tips title.
-        /// </summary>
+        // Tip 제목 레이블
         protected Label tipsTitleLabel;
 
-        /// <summary>
-        /// The label that displays the current tip.
-        /// </summary>
+        // 현재 Tip 레이블
         protected Label tipLabel;
 
-        /// <summary>
-        /// The element that contains the tip.
-        /// </summary>
+        // Tip을 포함하는 요소
         protected VisualElement tipsContainer;
 
-        /// <summary>
-        /// The loading bar element.
-        /// </summary>
+        // Loading Bar
         protected VisualElement loadingBar;
 
-        /// <summary>
-        /// The loading label.
-        /// </summary>
+        // Loading Label
         protected Label loadingLabel;
 
         /// <summary>

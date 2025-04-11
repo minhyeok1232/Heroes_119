@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f26696c68d01ab9418f22b084ac67b7c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301874
+  packageName: Freeloader
+  packageVersion: 1.0.0
+  assetPath: Assets/StylishEsper/Freeloader/Examples/SceneToLoad.unity
+  uploadId: 721296

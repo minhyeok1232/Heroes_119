@@ -5,6 +5,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// SO ==> 로딩 화면을 커스터마이징
 namespace Esper.Freeloader
 {
     /// <summary>
