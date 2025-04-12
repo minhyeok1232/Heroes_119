@@ -159,10 +159,7 @@ namespace Esper.Freeloader
         {
             Close();
         }
-
-        /// <summary>
-        /// Refreshes the states of each element based on the loading screen settings.
-        /// </summary>
+        
         protected virtual void RefreshElementStates()
         {
             tipsTitleLabel.text = settings.tipsTitle;
@@ -488,15 +485,7 @@ namespace Esper.Freeloader
             IsLoading = false;
             onComplete.Invoke();
 
-            // End loading
-            if (settings.requireInputToContinue)
-            {
-                ShowContinueContent();
-            }
-            else
-            {
-                Close();
-            }
+            Close();
         }
 
         /// <summary>
