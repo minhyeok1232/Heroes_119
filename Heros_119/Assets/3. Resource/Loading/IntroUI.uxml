@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/3.%20Resource/Loading/MainMenu.uss?fileID=7433441132597879392&amp;guid=8ba7a8df6ec7a294bbec6d1023ee3c63&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; width: 40%; height: 100%; margin-left: 5%; background-color: rgba(0, 0, 0, 0.12);">
+        <ui:VisualElement name="Logo" style="flex-grow: 1; height: 30%; background-color: rgba(212, 89, 89, 0); background-size: 100% 100%;">
+            <ui:Label text="&#10;" name="Logo" style="-unity-font-style: bold; font-size: 40px; color: rgb(255, 255, 255); align-items: center; justify-content: center; -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; align-items: center; justify-content: space-around;">
+            <ui:Button text="Play" name="PlayButton" class="menu-button" />
+            <ui:Button text="Setting" name="SettingButton" class="menu-button" />
+            <ui:Button text="Exit" name="ExitButton" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

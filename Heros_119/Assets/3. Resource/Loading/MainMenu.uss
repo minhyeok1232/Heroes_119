@@ -1,0 +1,17 @@
+.menu-button {
+    -unity-font-style: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    rotate: -5deg;
+}
+
+.menu-button:active {
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    rotate: 0;
+}

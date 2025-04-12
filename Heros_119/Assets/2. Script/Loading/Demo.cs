@@ -26,14 +26,37 @@ namespace Esper.Freeloader.Examples
         void SetupMainMenuUI()
         {
             // 2. Call Back 연결
-            MainMenu.Instance._playButton.clicked += () =>
             {
-                HideUI(MainMenu.Instance);           // 메인 메뉴 숨김
-                ShowUI(LoadingScreen.Instance);      // 로딩 화면 표시
-                StartLoadingSequence().Forget();
-            };
-            //_settingButton.clicked += SettingButtonClicked;
-            //_exitButton.clicked += ExitButtonClicked;
+                // Play Button
+                MainMenu.Instance._playButton.clicked += () =>
+                {
+                    HideUI(MainMenu.Instance); 
+                    ShowUI(LoadingScreen.Instance);
+                    StartLoadingSequence().Forget();
+                };
+                
+                // Setting Button
+                MainMenu.Instance._settingButton.clicked += () =>
+                {
+                    HideUI(MainMenu.Instance); 
+                    ShowUI(LoadingScreen.Instance); 
+                    StartLoadingSequence().Forget();
+                    
+                    //_settingButton.clicked += SettingButtonClicked;
+                };
+                
+                // Exit Button
+                MainMenu.Instance._exitButton.clicked += () =>
+                {
+                    // Build
+                    Application.Quit(); 
+                    
+                    // Editor
+                    #if UNITY_EDITOR
+                    UnityEditor.EditorApplication.isPlaying = false;
+                    #endif
+                };
+            }
         }
         
         // 예외처리 X, Return X

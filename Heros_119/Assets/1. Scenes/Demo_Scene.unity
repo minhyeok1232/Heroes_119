@@ -1341,11 +1341,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3957064112005008357, guid: e423bfa6618ecb244a50f32881346436, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.85
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 3957064112005008357, guid: e423bfa6618ecb244a50f32881346436, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 3957064112005008357, guid: e423bfa6618ecb244a50f32881346436, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2193,6 +2193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 6887121872436583790, guid: 901315c7f65749b4585a1ba9375ceb3c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2949,11 +2953,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Background_MoveSpeed: 1.5
   Layer_Speed:
-  - 1
-  - 0.9
-  - 0.7
-  - 0.5
   - 0.3
+  - 0.5
+  - 0.7
+  - 0.9
+  - 1
   Layer_Objects:
   - {fileID: 467946480}
   - {fileID: 2120181086}
