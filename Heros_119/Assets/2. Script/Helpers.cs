@@ -9,6 +9,16 @@ public enum GameState
     GameOver    // 게임오버
 }
 
+public enum PlayerState
+{
+    Idle,
+    Walk,
+    Run,
+    Jump,
+    Attack,
+    Dead
+}
+
 public static class Helpers
 {
     // ====================== Debug ======================
